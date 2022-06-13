@@ -1,0 +1,18 @@
+.img-header{
+    width: 100rem;
+    height: 10rem;
+    padding:0;
+
+}
+
+.menu{
+    float: left;
+    width: 5vw;
+}
+
+nav{
+    box-shadow: 5px 15px 5px -5px #66ff66;
+    background: #66ff66;
+    text-align: center;
+    
+}
