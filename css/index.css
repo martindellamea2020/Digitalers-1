@@ -15,3 +15,12 @@ nav{
     float: left;
     width: 5vw;
 }
+
+.barra-nav{
+    width: 200px;
+    background-color: cadetblue;
+    margin: 25px;
+    border: 12px solid rebeccapurple;
+    padding: 20px;
+
+}
