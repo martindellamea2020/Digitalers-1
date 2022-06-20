@@ -1,0 +1,17 @@
+
+form{
+    border: 2px solid cadetblue;
+    padding: 20px;
+    width: 500px;
+}
+
+div label{
+    display: inline-block;
+    width: 80px;
+}
+button{
+    display: inline-block;
+    width: 100px;
+    background-color: cadetblue;
+}
+

@@ -5,18 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
+    <link rel="stylesheet" href="../css/link1.css"
 </head>
 <body>
     <h1>Link number one</h1>
 
-<form>
-    <input type="email">
-    <button type="submit">Enviar</button> 
-    <button type="reset">Cancelar</button>
-    <input type="password">
-    <button type="submit">Enviar</button> 
-    <button type="reset">Cancelar</button>
-    <input type="date">
+<form method="post" action="archivo.txt">
+    <div>
+       <label>email:</label> <input required name="email" type="email">
+    </div>
+    
+    <div>
+       <label>contraseña:</label> <input required name="contrasenha" type="password">
+    </div>
+    
+    <div>
+       <label>fecha: </label> <input name="fecha" type="date">
+    </div>
     <button type="submit">Enviar</button> 
     <button type="reset">Cancelar</button>
 </form>
